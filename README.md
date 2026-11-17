@@ -5,9 +5,20 @@ Behavioral measures for the RDoC task battery, in R.
 RDoC is the NIMH Research Domain Criteria framework. The battery is the Poldrack
 Lab's set of 12 RDoC behavioral tasks, run in jsPsych; the task code is at
 [poldracklab/expfactory-experiments-rdoc](https://github.com/poldracklab/expfactory-experiments-rdoc).
-The tasks are AX-CPT, cued task switching, flanker, go/no-go, n-back, operation
-span, simple span, spatial cueing, spatial task switching, stop signal, Stroop
-and visual search.
+The tasks are:
+
+- AX-CPT
+- Cued Task Switching
+- Spatial Task Switching
+- Flanker
+- Go/No-go
+- N-Back
+- Operation Span
+- Simple Span
+- Spatial Cueing
+- Stroop
+- Stop-Signal
+- Visual Search
 
 Each function takes one task's trial table and returns one row per subject and
 session: accuracy, reaction time and omissions per condition, contrasts between
