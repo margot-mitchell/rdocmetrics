@@ -1,0 +1,14 @@
+"case","task","condition","accuracy","omission_rate","rt_ms","rt_var_ms2","go_rt_ms","stop_accuracy"
+"with_omissions","flanker","congruent",0.75,0.333333333333333,460,2800,NA,NA
+"all_omitted","flanker","congruent",NA,1,NA,NA,NA,NA
+"fast_rt_boundary","flanker","congruent",1,0,137.5,30625.6666666667,NA,NA
+"slow_errors","flanker","congruent",0.5,0,410,199.999999999999,NA,NA
+"fast_error","flanker","congruent",0.666666666666667,0.25,425,1250,NA,NA
+"zero_rt","flanker","congruent",0.666666666666667,0,200,80000,NA,NA
+"flagged_trials","flanker","congruent",0.666666666666667,0,425,1250,NA,NA
+"stop_typical","stop_signal",NA,NA,NA,NA,NA,462.5,0.5
+"stop_no_stop_trials","stop_signal",NA,NA,NA,NA,NA,420,NA
+"stop_correct_disagrees_with_rt","stop_signal",NA,NA,NA,NA,NA,420,1
+"stop_slow_go_errors","stop_signal",NA,NA,NA,NA,NA,410,0.5
+"stop_go_fast_rt_boundary","stop_signal",NA,NA,NA,NA,NA,166.333333333333,0.5
+"stop_fast_stop_failure","stop_signal",NA,NA,NA,NA,NA,420,0.333333333333333

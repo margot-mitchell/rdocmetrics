@@ -1,0 +1,15 @@
+task,contrast,left,right
+ax_cpt,AY_BY,AY,BY
+ax_cpt,BX_BY,BX,BY
+cued_task_switching,task_switch_cost,task_switch_cue_switch,task_stay_cue_switch
+cued_task_switching,cue_switch_cost,task_stay_cue_switch,task_stay_cue_stay
+flanker,incongruent_congruent,incongruent,congruent
+n_back,2back_1back,2_back,1_back
+spatial_cueing,invalid_doublecue,invalid,doublecue
+spatial_cueing,doublecue_valid,doublecue,valid
+spatial_cueing,nocue_doublecue,nocue,doublecue
+spatial_task_switching,task_switch_cost,task_switch_cue_switch,task_stay_cue_switch
+spatial_task_switching,cue_switch_cost,task_stay_cue_switch,task_stay_cue_stay
+stroop,incongruent_congruent,incongruent,congruent
+visual_search,conjunction_24_conjunction_8,conjunction_24,conjunction_8
+visual_search,conjunction_24_feature_24,conjunction_24,feature_24

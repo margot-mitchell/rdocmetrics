@@ -1,0 +1,7 @@
+token,source,notes
+NA,R,"write.csv default for a missing value"
+NaN,R,"as.character(NaN)"
+None,Python,"str(None)"
+null,JSON,"JSON null, seen in jsPsych exports"
+<NA>,pandas,"pandas' own string repr for pd.NA"
+nan,Python,"str(float('nan'))"

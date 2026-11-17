@@ -1,0 +1,13 @@
+"subject_id","session","trial_seq","block_num","condition","correct_trial","rt","usable"
+"s001","1",1,1,"congruent","1",400,TRUE
+"s001","1",2,1,"congruent","0",500,TRUE
+"s001","1",3,1,"congruent","1",600,TRUE
+"s001","1",4,1,"congruent","1",410,TRUE
+"s001","1",5,1,"congruent","0",510,TRUE
+"s001","1",6,1,"congruent","1",610,TRUE
+"s001","1",7,1,"congruent","1",150,TRUE
+"s001","1",8,1,"congruent","0",500,TRUE
+"s001","1",9,1,"congruent","1",900,TRUE
+"s001","1",10,1,"congruent","1",410,TRUE
+"s001","1",11,1,"congruent","0",100,TRUE
+"s001","1",12,1,"congruent","1",950,TRUE

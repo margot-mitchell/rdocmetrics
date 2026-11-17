@@ -1,0 +1,123 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "rdocmetrics: Behavioral Measures for the RDoC Task Battery"
+abstract: >-
+  The behavioral measures of the RDoC task battery, as the study reports them:
+  accuracy, reaction time and omissions per condition, contrasts between
+  conditions, post-error slowing, the congruency sequence effect, post-stop
+  slowing, stop-signal reaction time and span recall. Each function takes one
+  task's trial table and returns one row per subject and session, with times
+  in milliseconds.
+type: software
+authors:
+  - given-names: Margot
+    family-names: Mitchell
+    email: marg0tm@stanford.edu
+    affiliation: Stanford University
+repository-code: "https://github.com/margot-mitchell/rdocmetrics"
+license: MIT
+version: 0.6.0
+date-released: "2026-11-17"
+keywords:
+  - cognitive-psychology
+  - reaction-time
+  - stop-signal
+  - reproducibility
+references:
+  - type: article
+    title: "A consensus guide to capturing the ability to inhibit actions and impulsive behaviors in the stop-signal task"
+    authors:
+      - family-names: Verbruggen
+        given-names: Frederick
+      - family-names: Aron
+        given-names: Adam R.
+      - family-names: Band
+        given-names: Guido P. H.
+      - family-names: Beste
+        given-names: Christian
+      - family-names: Bissett
+        given-names: Patrick G.
+      - family-names: Brockett
+        given-names: Adam T.
+      - family-names: Brown
+        given-names: Joshua W.
+      - family-names: Chamberlain
+        given-names: Samuel R.
+      - family-names: Chambers
+        given-names: Christopher D.
+      - family-names: Colonius
+        given-names: Hans
+      - family-names: Colzato
+        given-names: Lorenza S.
+      - family-names: Corneil
+        given-names: Brian D.
+      - family-names: Coxon
+        given-names: James P.
+      - family-names: Dupuis
+        given-names: Annie
+      - family-names: Eagle
+        given-names: Dawn M.
+      - family-names: Garavan
+        given-names: Hugh
+      - family-names: Greenhouse
+        given-names: Ian
+      - family-names: Heathcote
+        given-names: Andrew
+      - family-names: Huster
+        given-names: René J.
+      - family-names: Jahfari
+        given-names: Sara
+      - family-names: Kenemans
+        given-names: J. Leon
+      - family-names: Leunissen
+        given-names: Inge
+      - family-names: Li
+        given-names: Chiang-Shan R.
+      - family-names: Logan
+        given-names: Gordon D.
+      - family-names: Matzke
+        given-names: Dora
+      - family-names: Morein-Zamir
+        given-names: Sharon
+      - family-names: Murthy
+        given-names: Aditya
+      - family-names: Paré
+        given-names: Martin
+      - family-names: Poldrack
+        given-names: Russell A.
+      - family-names: Ridderinkhof
+        given-names: K. Richard
+      - family-names: Robbins
+        given-names: Trevor W.
+      - family-names: Roesch
+        given-names: Matthew
+      - family-names: Rubia
+        given-names: Katya
+      - family-names: Schachar
+        given-names: Russell J.
+      - family-names: Schall
+        given-names: Jeffrey D.
+      - family-names: Stock
+        given-names: Ann-Kathrin
+      - family-names: Swann
+        given-names: Nicole C.
+      - family-names: Thakkar
+        given-names: Katharine N.
+      - family-names: Molen
+        name-particle: van der
+        given-names: Maurits W.
+      - family-names: Vermeylen
+        given-names: Luc
+      - family-names: Vink
+        given-names: Matthijs
+      - family-names: Wessel
+        given-names: Jan R.
+      - family-names: Whelan
+        given-names: Robert
+      - family-names: Zandbelt
+        given-names: Bram B.
+      - family-names: Boehler
+        given-names: C. Nico
+    year: 2019
+    doi: 10.7554/eLife.46323
+    notes: "Basis for the integration-method SSRT implementation."

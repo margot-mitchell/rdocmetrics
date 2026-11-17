@@ -1,0 +1,13 @@
+condition,rt,SSD,trial_id
+go,400.0,200.0,test_trial
+go,410.0,,test_trial
+go,420.0,220.0,test_trial
+go,430.0,,test_trial
+go,440.0,240.0,test_trial
+go,450.0,260.0,test_trial
+go,460.0,280.0,test_trial
+go,470.0,300.0,test_trial
+stop,420.0,200.0,test_trial
+stop,,,test_trial
+stop,460.0,240.0,test_trial
+stop,,260.0,test_trial

@@ -1,0 +1,31 @@
+name: No participant data
+on:
+  push:
+    branches: [main]
+    # A tag push does not match a `branches:` filter, so tags are listed
+    # separately; the history scan below runs on tags.
+    tags: ['v*']
+  pull_request:
+    branches: [main]
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history, for the history scan on tags.
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Scan the tracked files only, not build artifacts in the working tree.
+      - name: Scan tracked tree
+        run: |
+          mkdir -p .scan_export
+          git archive HEAD | tar -x -C .scan_export
+          python3 tools/scan_repo.py .scan_export --plain
+      # --plain and --history are mutually exclusive in scan_repo.py.
+      - name: Scan full history
+        if: startsWith(github.ref, 'refs/tags/')
+        run: python3 tools/scan_repo.py . --history

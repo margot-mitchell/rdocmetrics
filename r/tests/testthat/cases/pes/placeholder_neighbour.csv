@@ -1,0 +1,10 @@
+"subject_id","session","trial_seq","block_num","condition","correct_trial","rt","usable"
+"s001","1",1,1,"task_stay_cue_stay","1",400,TRUE
+"s001","1",2,1,"task_stay_cue_stay","0",500,TRUE
+"s001","1",3,1,"task_stay_cue_stay","1",600,TRUE
+"s001","1",4,1,"task_stay_cue_stay","1",410,TRUE
+"s001","1",5,1,"task_stay_cue_stay","0",510,TRUE
+"s001","1",6,1,"task_stay_cue_stay","1",610,TRUE
+"s001","1",7,1,"task_stay_cue_stay","1",400,TRUE
+"s001","1",8,1,"task_switch_cue_switch","0",500,TRUE
+"s001","1",9,1,"na","1",900,TRUE

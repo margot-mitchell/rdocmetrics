@@ -1,0 +1,16 @@
+"subject_id","session","trial_seq","block_num","condition","correct_trial","rt","usable"
+"s001","1",1,1,"go","1",400,TRUE
+"s001","1",2,1,"nogo","0",300,TRUE
+"s001","1",3,1,"go","1",600,TRUE
+"s001","1",4,1,"go","1",410,TRUE
+"s001","1",5,1,"nogo","0",310,TRUE
+"s001","1",6,1,"go","1",610,TRUE
+"s001","1",7,1,"nogo","1",NA,TRUE
+"s001","1",8,1,"nogo","0",320,TRUE
+"s001","1",9,1,"go","1",900,TRUE
+"s001","1",10,1,"go","1",420,TRUE
+"s001","1",11,1,"nogo","0",330,TRUE
+"s001","1",12,1,"nogo","1",NA,TRUE
+"s001","1",13,1,"go","1",430,TRUE
+"s001","1",14,1,"go","0",NA,TRUE
+"s001","1",15,1,"go","1",950,TRUE

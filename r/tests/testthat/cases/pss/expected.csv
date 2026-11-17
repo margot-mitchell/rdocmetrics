@@ -1,0 +1,17 @@
+"case","min_correct","pss_ms","n_pre","n_post"
+"clean_triplets",1,85,2,2
+"clean_triplets",2,85,2,2
+"no_correct_go_before_pre",1,90,1,1
+"no_correct_go_before_pre",2,NA,1,1
+"pre_stop_first_in_block",1,85,2,2
+"pre_stop_first_in_block",2,85,2,2
+"block_boundary",1,90,1,1
+"block_boundary",2,NA,1,1
+"stop_followed_by_stop",1,NA,0,0
+"stop_followed_by_stop",2,NA,0,0
+"fast_post_trial",1,-155,2,2
+"fast_post_trial",2,-155,2,2
+"incorrect_neighbour",1,103.333333333,3,2
+"incorrect_neighbour",2,103.333333333,3,2
+"two_sessions",1,282.5,3,3
+"two_sessions",2,485,3,3

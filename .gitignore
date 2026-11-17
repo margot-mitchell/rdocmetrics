@@ -1,0 +1,19 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.tar.gz
+*.Rcheck/
+r/src/*.o
+r/src/*.so
+
+# Python byte-code from the development scripts in tools/.
+__pycache__/
+*.py[cod]
+
+# Identifier scan staging (make scan)
+.scan_export/
+
+# macOS
+.DS_Store

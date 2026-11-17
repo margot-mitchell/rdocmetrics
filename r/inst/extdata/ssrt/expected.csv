@@ -1,0 +1,23 @@
+case,expected_drop_na_ssd_true,expected_drop_na_ssd_false,n_rows,note
+all_go_omitted,820.0,820.0,12,"Every go trial omitted, so all go RTs become MAX_GO_RT"
+all_ssd_below_limit,,,9,Every SSD below the 50 ms limit; all trials filtered out
+empty_frame,,,0,Zero rows
+half_boundary_rounding,220.0,220.0,7,"p_respond * n_go == 2.5, exercising round-half-to-even in rint()"
+missing_ssd_column,,,9,Required SSD column absent; an error since 0.4.0 (the reference returned NA)
+mixed_trial_ids,230.0,230.0,13,Non-test rows present and must be filtered out before computing
+na_ssd_present,216.66666666666666,196.66666666666666,12,Missing SSD values: the one case where drop_na_ssd changes the answer
+negative_ssrt,-270.0,-270.0,9,"Fast go RTs with long SSDs give a negative SSRT, passed through as-is"
+no_go_trials,,,4,Stop trials only; SSRT is undefined
+no_stop_trials,,,6,Go trials only; SSRT is undefined
+no_test_rows,,,6,trial_id column present but contains neither test label
+no_trial_id_column,230.0,230.0,9,No trial_id column at all; every row is used
+nth_index_clamp_high,330.0,330.0,7,p_respond == 1 so nth_index is the final element
+nth_index_clamp_low,200.0,200.0,61,p_respond small enough that nth_index goes negative and clamps to 0
+p_respond_one,290.0,290.0,15,Every stop trial had a response; nth_index lands on the last go RT
+p_respond_zero,,,15,No responses on any stop trial; p_respond == 0 so SSRT is undefined
+round_half_to_even_up,260.0,260.0,9,"p_respond * n_go == 3.5, which rint()s up to 4 (nearest even)"
+single_go_trial,255.0,255.0,4,"Exactly one go trial, so every rank clamps to it"
+ssd_below_limit_go_only,,,9,Only go trials fall below the SSD limit; all go rows are dropped
+test_probe_fallback,230.0,230.0,9,"No test_trial rows, so the test_probe fallback applies"
+tied_go_rts,250.0,250.0,14,All go RTs identical; rank selection is insensitive to sort stability
+typical,265.3,265.3,60,Representative session with omissions and ~45% stop failures

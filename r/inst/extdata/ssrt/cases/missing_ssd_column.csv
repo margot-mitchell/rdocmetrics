@@ -1,0 +1,10 @@
+condition,rt,trial_id
+go,400.0,test_trial
+go,410.0,test_trial
+go,420.0,test_trial
+go,430.0,test_trial
+go,440.0,test_trial
+go,450.0,test_trial
+stop,420.0,test_trial
+stop,,test_trial
+stop,440.0,test_trial

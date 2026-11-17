@@ -1,0 +1,38 @@
+task,condition,placeholder,pooled_from,accuracy_over,rt_from,neighbour,notes
+ax_cpt,AX,no,,responses,correct,yes,
+ax_cpt,AY,no,,responses,correct,yes,
+ax_cpt,BX,no,,responses,correct,yes,
+ax_cpt,BY,no,,responses,correct,yes,
+cued_task_switching,task_stay_cue_stay,no,,responses,correct,yes,
+cued_task_switching,task_stay_cue_switch,no,,responses,correct,yes,
+cued_task_switching,task_switch_cue_switch,no,,responses,correct,yes,
+cued_task_switching,task_na_cue_na,yes,,,,no,First trial of a block; belongs to no condition
+flanker,congruent,no,,responses,correct,yes,
+flanker,incongruent,no,,responses,correct,yes,
+go_nogo,go,no,,all_trials,correct,yes,A missed go trial is an error
+go_nogo,nogo,no,,all_trials,all_responses,no,Withholding is correct; RT is the mean of commission errors
+n_back,match_1,no,,responses,correct,yes,
+n_back,mismatch_1,no,,responses,correct,yes,
+n_back,match_2,no,,responses,correct,yes,
+n_back,mismatch_2,no,,responses,correct,yes,
+n_back,1_back,no,match_1;mismatch_1,responses,correct,yes,Pooled cell
+n_back,2_back,no,match_2;mismatch_2,responses,correct,yes,Pooled cell
+n_back,na_1,yes,,,,no,Opening trials of a block; belongs to no condition
+n_back,na_2,yes,,,,no,Opening trials of a block; belongs to no condition
+spatial_cueing,valid,no,,responses,correct,yes,
+spatial_cueing,doublecue,no,,responses,correct,yes,
+spatial_cueing,invalid,no,,responses,correct,yes,
+spatial_cueing,nocue,no,,responses,correct,yes,
+spatial_task_switching,task_stay_cue_stay,no,,responses,correct,yes,
+spatial_task_switching,task_stay_cue_switch,no,,responses,correct,yes,
+spatial_task_switching,task_switch_cue_switch,no,,responses,correct,yes,
+spatial_task_switching,na,yes,,,,no,First trial of a block; belongs to no condition
+stop_signal,go,no,,responses,correct,yes,
+stop_signal,stop,no,,all_trials,correct,no,Withholding is correct; a failed stop is an error
+stroop,congruent,no,,responses,correct,yes,
+stroop,incongruent,no,,responses,correct,yes,
+visual_search,feature_8,no,,responses,correct,yes,
+visual_search,feature_24,no,,responses,correct,yes,
+visual_search,conjunction_8,no,,responses,correct,yes,
+visual_search,conjunction_24,no,,responses,correct,yes,
+visual_search,feature,no,feature_8;feature_24,responses,correct,yes,Pooled cell

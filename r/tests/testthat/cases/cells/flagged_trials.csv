@@ -1,0 +1,6 @@
+"subject_id","session","condition","correct_trial","rt","usable"
+"s001","1","congruent","1",400,TRUE
+"s001","1","congruent","1",800,FALSE
+"s001","1","congruent","0",500,TRUE
+"s001","1","congruent",NA,NA,FALSE
+"s001","1","congruent","1",450,TRUE
